@@ -3,4 +3,4 @@
 	url = https://github.com/mellonb/CYBR8470-building-a-webservice-lab-backend
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/mellonb/CYBR8470-building-a-webservice-lab
+	url = https://github.com/mellonb/CYBR8470-building-a-webservice-lab-frontend
