@@ -6,15 +6,17 @@
 ###################################
 
 # Pull base image.
-FROM python:2.7.13
+FROM python:3
 ENV PYTHONUNBUFFERED 1
 
 # Setup linkages to code repositories and add to image
 
 WORKDIR /var/www/backend
 
+
 #Python packages
-RUN pip install Django
+RUN pip install Django==2.0.3
+RUN pip install coreapi
 RUN pip install djangorestframework
 RUN pip install markdown
 RUN pip install django-filter
